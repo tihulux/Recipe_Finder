@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeFinder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <div class="cocScreen">
+        <div class="cocSearch">
+          <h2 class="title">Cocktail Recipes</h2>
+          <div class="cocSearchBar">
+            <input
+              type="text"
+              class="search-coc"
+              placeholder="Enter ingredients or coctail names"
+              id="searchInput"
+            />
+            <button type="submit" class="search-btn" id="searchBtn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="cocResult">
+          <h2>Your search results:</h2>
+
+          <div id="coc">
+            <!--
+            <div class="coc-item">
+              <div class="coc-img">
+                <img src="cocktail.jpg" alt="drnk" />
+              </div>
+              <div class="cocName">
+                <h3>Awesome Cocktail</h3>
+                <a href="#" class="get-recipe">Get Recipe</a>
+              </div>
+            </div>
+            <div class="coc-item">
+              <div class="coc-img">
+                <img src="cocktail.jpg" alt="drnk" />
+              </div>
+              <div class="cocName">
+                <h3>Awesome Cocktail</h3>
+                <a href="#" class="get-recipe">Get Recipe</a>
+              </div>
+            </div>
+            <div class="coc-item">
+              <div class="coc-img">
+                <img src="cocktail.jpg" alt="drnk" />
+              </div>
+              <div class="cocName">
+                <h3>Awesome Cocktail</h3>
+                <a href="#" class="get-recipe">Get Recipe</a>
+              </div>
+            </div>
+            -->
+          </div>
+        </div>
+        <div class="coc-details">
+          <button type="button" class="recipe-close" id="recipeCloseBtn">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div class="coc-content">
+            <h2 class="recipe-title">Coc Name</h2>
+            <p class="recipe category">Category Name</p>
+            <div class="recipe-desc">
+              <h3>Instructions</h3>
+              <p>Description</p>
+            </div>
+            <div class="coc-recipe-img">
+              <img src="cocktail.jpg" alt="" />
+            </div>
+            <div class="ingredients">
+              <div class="ing1"></div>
+              <div class="ing2"></div>
+              <div class="ing3"></div>
+              <div class="ing4"></div>
+              <div class="ing5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
